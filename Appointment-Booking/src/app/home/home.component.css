@@ -1,0 +1,240 @@
+.top-nav {
+    background-color: #39b9cc;
+padding: 10px;
+height: 50px;
+display: flex;
+  justify-content: space-between;
+  list-style: none;
+  }
+  
+  .top-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top-nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .top-nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  
+  .top-nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  header {
+    background-color: #aeb8b9;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 3px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #808d91;
+    padding: 20px;
+    height: 400px;
+    margin-bottom: 0;
+  padding-bottom: 0;
+  }
+  
+  .footer-column {
+    width: 50%;
+    display: inline-block;
+    padding-top: 70px;
+  }
+  
+  .footer-column h3 {
+    font-size: medium;
+    color: #fff;
+    margin-top: -180px
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column a {
+    color:#0a0a0a;
+    text-decoration: none;
+  }
+  
+  .footer-column a:hover {
+    text-decoration: underline;
+  }
+  
+  .icon{
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+    
+    
+  }
+  .fa-brands{
+    padding-left: 14px;
+  }
+  .contact-info {
+    margin-left: 482px;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+  .opening-hours{
+    margin-left: 50px;
+    font-size: 15px;
+    text-decoration: none;
+    padding-right: 100px;
+    font-weight: bold;
+
+  }
+  .top-nav li {
+    display: inline;
+  }
+  .nav2{
+    margin-left: 400px;
+    
+  }
+  .space{
+    padding: 10px;
+  }
+ 
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -10px;
+  }
+  .containerfooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    margin-top: -10px;
+  }
+  
+  .login-form {
+    width: 300px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: 660px;
+    margin-top: -70px;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  body{
+    margin: 0;
+      padding: 0;
+    background-image: url("https://demos.hogash.com/medical-health-clinic/images/subheader1.jpg");
+    background-repeat: no-repeat;
+    margin-top: 10px;
+  }
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .social-icons li {
+    margin-right: 10px;
+  }
+  
+  .social-icons a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .subscribe-form {
+    margin-top: 10px;
+    display: flex;
+  }
+  
+  .subscribe-form input[type="email"] {
+    width: 200px;
+    padding: 8px;
+  }  
+  /* .footerhome {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  } */

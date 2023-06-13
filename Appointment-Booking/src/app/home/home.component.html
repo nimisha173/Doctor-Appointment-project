@@ -1,0 +1,89 @@
+<html>
+  <nav class="top-nav">
+    <div class="icon">
+    <li class="contact-info">Contact: +91 9997865425</li>
+    <li class="opening-hours">Opening Hours: Mon-Fri, 9am-6pm</li>
+    <i class="fab fa-instagram"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+  </div>
+  
+
+    
+  </nav>
+  
+  <header>
+    <nav class="nav2">
+      <ul class="space">
+        <li><a routerLink="/appointment-form">Home</a></li>
+        <li><a routerLink="/doctor-list">About</a></li>
+        <li><a routerLink="/appointment-list">Services</a></li>
+        <li><a routerLink="/doctorlist">Doctro List</a></li>
+        <li><a routerLink="/doctorlist">Admin</a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <div class="container">
+      <form class="login-form">
+        <h2>Login</h2>
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit" (click)="login()">Login</button>
+        <br>
+        <p class="signup-link">Don't have an account? <a routerLink="/signup">Sign up</a></p>
+      </form>
+    </div>
+    <div class="footerhome">
+    <footer>
+    <div class="containerfooter">
+      <div class="footer-column">
+        <h3>WHO WE ARE</h3>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Awards & Achievements</a></li>
+          <li><a href="#">Board of Directors</a></li>
+          <li><a href="#">Clinics & Hospitals</a></li>
+          <li><a href="#">Our History</a></li>
+          <li><a href="#">News & Media</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>MEDICAL SERVICES</h3>
+        <ul>
+          <li><a href="#">Cancer Care</a></li>
+          <li><a href="#">Heart Care</a></li>
+          <li><a href="#">Orthopedic Care</a></li>
+          <li><a href="#">Women's Health</a></li>
+          <li><a href="#">Emergency Services</a></li>
+          <li><a href="#">Urgent Care</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>FOLLOW US</h3>
+        <ul class="social-icons">
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>SUBSCRIBE US</h3>
+        
+        <form class="subscribe-form">
+          <input type="email" name="email" placeholder="Your E-mail Address" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+  
+</html>
