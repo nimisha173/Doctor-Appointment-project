@@ -11,4 +11,7 @@ export class HomeComponent {
 login(){
   this.router.navigate(['/user-page']);
 }
+adminlogin(){
+  this.router.navigate(['/admin-login']);
+}
 }
